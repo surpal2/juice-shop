@@ -1,0 +1,75 @@
+Confidentiality
+Eligibility to Participate
+No automated testing or scanners
+
+
+Rules of Engagement
+Don’t mass create accounts to perform testing against our applications and services.
+No destructive automated testing - under no circumstance should automated testing cause intentional damage to Tinder systems.
+Don’t engage in social engineering (e.g. phishing, vishing, smishing).
+Don’t attempt to extort us.
+Don’t leave any system in a more vulnerable state than you found it.
+Don’t publicly disclose vulnerabilities without our explicit consent.
+Do respect our members’ privacy.
+Do research vulnerabilities and disclose vulnerabilities to us in good faith.
+Do be respectful when interacting with our team.
+Don't leak, manipulate, or destroy any user data. Please only test against accounts you own yourself or with explicit permission of the account holder.
+**Make Your Submission Count
+
+
+Bounty Eligibility / Out of Scope Vulnerabilities
+
+following would not meet the threshold for inclusion:
+Vulnerabilities on sites hosted by third-parties unless they lead to a vulnerability on the main website / application
+Broken link hijacking
+Denial of service
+Social engineering
+Spamming
+Homographs, RTLO, or other types of UI issues
+Content spoofing and text injection issues without showing an attack vector/without being able to modify HTML/CSS
+Click-jacking, or issues only exploitable via click-jacking
+Disclosure of known public files or directories (.htaccess, robots.txt, etc)
+Third-party vulnerabilities (e.g. Wordpress) that have recently become publicly known will generally be out of scope for a period of 30 days from the public release of an official patch or workaround.
+Missing or misconfigured security headers which do not lead directly to a vulnerability
+Overly verbose responses (errors, banners, etc.), which cannot be directly used in an exploit
+Software version disclosure without proof of exploitability
+Reports from automated tools or scans
+Lack of certificate pinning, or HSTS
+TLS/SSL version, configuration, weak ciphers or expired certificates
+Lack of Secure, or HTTPOnly flags on cookies
+Lack of, or weak, Captcha, or rate-limiting
+Tap-jacking
+Tab-nabbing
+SPF/DKIM/DMARC related issues, including missing SPF records on subdomains
+Scenarios that require unlikely user interaction and/or outdated OS or software version
+Self-XSS
+Login/Logout CSRF
+Unrestricted file uploads without a clear impact, beyond resource consumption, DoS, undesirable content, etc.
+Third-party API Keys/Secrets embedded in mobile applications, without a clear impact, as many third-parties require this for their own client attribution purposes.
+The ability to obtain multiple promotional items by opening multiple accounts
+Most GPS spoofing related issues
+Attacks against corporate IT infrastructure (e.g. firewalls and their software)
+Attacks against employees (phishing, stealing laptops, physical security issues, etc.)
+Host header injection without a clearly exploitable condition
+Mobile client issues requiring a rooted device and/or outdated OS version
+Attacks requiring MITM or physical access to a user's device.
+Comma Separated Values (CSV) injection without demonstrating a vulnerability.
+
+
+Clickjacking on pages with no sensitive actions.
+Cross-Site Request Forgery (CSRF) on unauthenticated forms or forms with no sensitive actions.
+Attacks requiring MITM or physical access to a user's device.
+Previously known vulnerable libraries without a working Proof of Concept.
+Comma Separated Values (CSV) injection without demonstrating a vulnerability.
+Missing best practices in SSL/TLS configuration.
+Any activity that could lead to the disruption of our service (DoS).
+Content spoofing and text injection issues without showing an attack vector/without being able to modify HTML/CSS
+Rate limiting or bruteforce issues on non-authentication endpoints.
+Missing best practices in Content Security Policy.
+Missing HttpOnly or Secure flags on cookies.
+Missing email best practices (Invalid, incomplete or missing SPF/DKIM/DMARC records, etc.).
+Vulnerabilities only affecting users of outdated or unpatched browsers [Less than 2 stable versions behind the latest released stable version].
+Software version disclosure / Banner identification issues / Descriptive error messages or headers (e.g. stack traces, application or server errors).
+Public Zero-day vulnerabilities that have had an official patch for less than 1 month will be awarded on a case by case basis.
+Open redirect - unless an additional security impact can be demonstrated.
+Issues that require unlikely user interaction.
